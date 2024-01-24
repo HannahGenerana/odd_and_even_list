@@ -9,11 +9,17 @@ def odd_and_even (first_list, second_list):
 
 # create an empty list to store the result
     result = []
-    
+
 # take all odd numbers on the first list
+    for num in first_list:
+        if (num % 2) != 0:
+            result.append (num)
 
-# take all even numbers on the second list
-
+# taske all even number on the second list
+    for num in second_list:
+        if (num % 2) == 0:
+            result.append (num)
+            
 # return the result of both list
 
 # print the result
