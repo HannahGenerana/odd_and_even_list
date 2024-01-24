@@ -19,7 +19,14 @@ def odd_and_even (first_list, second_list):
     for num in second_list:
         if (num % 2) == 0:
             result.append (num)
-            
+
 # return the result of both list
+    return result
 
 # print the result
+first_list = [7, 24, 59, 77, 105]
+second_list = [10, 23, 49, 100, 138]
+
+print (f"First list : {first_list}")
+print (f"Second list : {second_list}")
+print (f"The result is : {odd_and_even(first_list, second_list)}")
