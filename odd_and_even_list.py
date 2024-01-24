@@ -5,9 +5,11 @@
 # pseudocode
 
 # create a function to merge both different list in the result
+def odd_and_even (first_list, second_list):
 
 # create an empty list to store the result
-
+    result = []
+    
 # take all odd numbers on the first list
 
 # take all even numbers on the second list
